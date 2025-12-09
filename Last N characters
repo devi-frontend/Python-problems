@@ -1,0 +1,4 @@
+W=str(input())
+N=int(input())
+L=len(W)-N
+print(str(W[L:]))
