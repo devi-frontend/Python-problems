@@ -1,0 +1,4 @@
+W=str(input())
+L=int(len(W)/2)
+index=W[:L]
+print(str(index))
