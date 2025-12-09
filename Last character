@@ -1,0 +1,4 @@
+word=input()
+index=len(word)-1
+last_character=word[index]
+print(last_character)
