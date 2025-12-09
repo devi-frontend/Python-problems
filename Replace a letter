@@ -1,0 +1,4 @@
+w=str(input())
+i=int(input())
+c=str(input())
+print(w[:i]+c+w[i+1:])
