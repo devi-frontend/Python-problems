@@ -1,0 +1,4 @@
+w=str(input())
+L=len(w)
+i=int(L/2)
+print(w[i:])
