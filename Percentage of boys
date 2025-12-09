@@ -1,0 +1,3 @@
+g=int(input())
+T=int(100)
+print(T-g)
