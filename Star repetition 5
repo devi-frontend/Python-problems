@@ -1,0 +1,5 @@
+w1=str(input())
+w2=str(input())
+l1=int(len(w1))
+l2=int(len(w2))
+print(str("*" * l2) +w1[l2:])
