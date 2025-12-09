@@ -1,0 +1,6 @@
+W=str(input())
+length=len(W)
+L=len(W)-4
+first_word=W[:2]
+last_word=W[length-2:]
+print(str(first_word+L*"*"+last_word))
