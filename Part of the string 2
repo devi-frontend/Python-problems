@@ -1,0 +1,4 @@
+W=str(input())
+X=int(input())
+Y=int(input())
+print(W[X:Y+1])
