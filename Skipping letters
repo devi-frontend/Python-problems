@@ -1,0 +1,4 @@
+w=input()
+index=int(input())
+s=index + 1
+print(str(w[:index]+w[s: ]))
