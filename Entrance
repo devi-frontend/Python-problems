@@ -1,0 +1,5 @@
+a=int(input())
+s=str(input())
+c=(a>12) and (a<60)
+d=s == "yes" 
+print(c or d)
