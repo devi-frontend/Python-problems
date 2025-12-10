@@ -1,0 +1,8 @@
+n=input()
+a=(int(n)%9) == 0
+
+c=int(n[0]) == 9 or int(n[1])==9
+if a or c:
+    print("Lucky Number")
+else:
+    print("Unlucky Number")
