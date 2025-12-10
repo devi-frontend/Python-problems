@@ -1,0 +1,6 @@
+count = input()
+S = int(input())
+if S >= 300 or count == "large":
+    print("Buy a Book")
+else:
+    print("Do Not Buy a Book")
