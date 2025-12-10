@@ -1,0 +1,8 @@
+h=str(input())
+i=str(input())
+a=h=="Y"
+b=i=="Y"
+if a:
+    print("Allowed to Exam - Has Hall ticket")
+elif b:
+    print("Allowed to Exam - Has Identification Card")
