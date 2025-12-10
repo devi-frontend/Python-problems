@@ -1,0 +1,5 @@
+p=int(input())
+N=int(input())
+n=(p/100)*500
+result=n == N 
+print(result)
