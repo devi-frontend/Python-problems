@@ -1,0 +1,32 @@
+a = str(input())
+length = len(a)
+a_one_number = len(a) == 1
+a_two_number = len(a) == 2
+a_three_number = len(a) == 3
+a_four_number = len(a) == 4
+a_five_number = len(a) == 5
+if a_one_number:
+    print(a)
+elif a_two_number:
+    first_digit = int(a[0])
+    second_digit = int(a[1])
+    print(first_digit + second_digit)
+elif a_three_number:
+    first_digit = int(a[0])
+    second_digit = int(a[1])
+    third_digit = int(a[2])
+    print(first_digit + second_digit + third_digit)
+elif a_four_number:
+    first_digit = int(a[0])
+    second_digit = int(a[1])
+    third_digit = int(a[2])
+    fourth_digit = int(a[3])
+    print(first_digit + second_digit + third_digit + fourth_digit)
+elif a_five_number:
+    first_digit = int(a[0])
+    second_digit = int(a[1])
+    third_digit = int(a[2])
+    fourth_digit = int(a[3])
+    fifth_digit = int(a[4])
+    print(first_digit + second_digit + third_digit + fourth_digit + fifth_digit)
+    
