@@ -1,0 +1,6 @@
+n=int(input())
+a=((3*n)%6) == 0
+if a:
+    print(3*n)
+else:
+    print(n)
