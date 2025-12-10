@@ -1,0 +1,4 @@
+S=int(input())
+B=int(input())
+result=S>B 
+print(result)
