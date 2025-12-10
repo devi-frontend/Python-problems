@@ -1,0 +1,5 @@
+A=str(input())
+B=str(input())
+i=int(input())
+result=A[i:len(B)+i] == B[0:]
+print(result)
