@@ -1,0 +1,6 @@
+n=input()
+a=int(n[0])**3 + int(n[1])**3 + int(n[2])**3
+if a == int(n):
+    print("True")
+else:
+    print("False")
