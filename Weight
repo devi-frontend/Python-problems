@@ -1,0 +1,7 @@
+w=int(input())
+a=w>=100
+b=w>=30
+if a:
+    print("Box is Heavier")
+elif b:
+    print("Box is Heavy")
