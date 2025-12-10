@@ -1,0 +1,15 @@
+A=int(input())
+B=A//100
+C=A-(100*B)
+print("100:"+str(B))
+
+D=C//50
+E=C-(50*D)
+print("50:"+str(D))
+
+F=E//10
+G=E-(10*F)
+print("10:"+str(F))
+
+H=G//1
+print("1:"+str(H))
