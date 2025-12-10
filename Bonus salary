@@ -1,0 +1,7 @@
+s=int(input())
+y=int(input())
+a=(5/100)*s
+if y>5:
+    print(a)
+else:
+    print("No Bonus")
