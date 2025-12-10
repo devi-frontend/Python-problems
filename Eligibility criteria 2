@@ -1,0 +1,6 @@
+m= int(input())
+p=int(input())
+c=int(input())
+a=(m+p)>=100 or (p+c)>=100 or(m+c)>=100
+b=(m+p+c)>=180
+print(a and b)
