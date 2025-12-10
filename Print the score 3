@@ -1,0 +1,9 @@
+d=int(input())
+if d <=20:
+    distance=(d*2)
+elif d>20 and d<=60:
+    distance=((20*2)+(d-20)*4)
+elif d>60:
+    distance=((20*2)+(40*4)+(d-60)*6)
+distance=distance+30
+print(distance)
