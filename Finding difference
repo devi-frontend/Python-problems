@@ -1,0 +1,7 @@
+n1=int(input())
+n2=int(input())
+a=n1-n2
+if a>=0:
+    print(a)
+else:
+    print(a*(-1))
