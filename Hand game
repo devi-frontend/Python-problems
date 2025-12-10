@@ -1,0 +1,12 @@
+abhinav=str(input())
+anjali=str(input())
+if abhinav=="Paper" and anjali=="Rock":
+    print("Abhinav Wins")
+elif abhinav=="Scissors" and anjali=="Paper":
+    print("Abhinav Wins")
+elif abhinav=="Rock" and anjali=="Scissors":
+    print("Abhinav Wins")
+elif abhinav == anjali:
+    print("Tie")
+else:
+    print("Anjali Wins")
