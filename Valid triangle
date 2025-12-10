@@ -1,0 +1,7 @@
+a=int(input())
+b=int(input())
+c=int(input())
+d=(a+b)>c 
+e=(a+c)>b 
+f=(b+c)>a 
+print(d and e and f)
