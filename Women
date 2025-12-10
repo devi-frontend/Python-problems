@@ -1,0 +1,7 @@
+a=str(input())
+b=str(input())
+c=str(input())
+d=a == "woman"
+e=b == "woman"
+f=c == "woman"
+print(d or e or f)
