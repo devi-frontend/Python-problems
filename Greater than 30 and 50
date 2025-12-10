@@ -1,0 +1,7 @@
+x=int(input())
+a=x>30
+b=x>50
+if a:
+    print("X is Greater than 30")
+if b:
+    print("X is Greater than 50")
