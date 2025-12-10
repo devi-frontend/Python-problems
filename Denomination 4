@@ -1,0 +1,13 @@
+a=int(input())
+b=a//100
+c=a-(100*b)
+print("100 Notes: "+str(b))
+d=c//50
+e=(c-(50*d))
+print("50 Notes: "+str(d))
+f=e//20
+g=(e-(20*f))
+print("20 Notes: "+str(f))
+h=g//10
+i=g-(10*h)
+print("10 Notes: "+str(h))
