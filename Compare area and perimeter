@@ -1,0 +1,7 @@
+L=int(input())
+b=int(input())
+A=L*b 
+P=2*(L+b)
+result=A <= P 
+print(result)
+
