@@ -1,0 +1,8 @@
+A=input()
+M=input()
+Length=len(A)
+B=A[: Length-1]
+if int(B)>=75 or M=="Y":
+    print("Allowed to write exam")
+else:
+    print("Cannot write exam")
