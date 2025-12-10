@@ -1,0 +1,11 @@
+units=int(input())
+if units <= 50:
+    bill= 2*units
+elif units<=150:
+    bill=(2*50) + (units-50)*3
+elif units<=250:
+    bill=(2*50) + (3*100) +(units-150)*5
+elif units>=251:
+    bill=(2*50) + (3*100) + (5*100) +(units-250)*8
+bill=bill+(0.2 * bill)
+print(bill)
