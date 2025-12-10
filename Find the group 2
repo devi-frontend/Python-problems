@@ -1,0 +1,13 @@
+n=int(input())
+if (n%6) == 1:
+    print("Group 1")
+elif (n%6) == 2:
+    print("Group 2")
+elif (n%6) == 3:
+    print("Group 3")
+elif (n%6) == 4:
+    print("Group 4")
+elif (n%6) == 5:
+    print("Group 5")
+elif (n%6) == 0:
+    print("Group 6")
