@@ -1,0 +1,5 @@
+A=int(input())
+B=A//5
+C=A-(5*B)
+print("5:"+str(B))
+print("1:"+str(C))
