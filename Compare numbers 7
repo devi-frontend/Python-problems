@@ -1,0 +1,4 @@
+n=input()
+a=int(n[:2]) == 19
+b=int(n[2:])>30 and int(n[2:])<60
+print(a and b)
