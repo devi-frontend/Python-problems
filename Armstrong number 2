@@ -1,0 +1,6 @@
+n=input()
+a=int(n[0])**4 + int(n[1])**4 + int(n[2])**4 + int(n[3])**4 
+if a == int(n):
+    print("Armstrong Number")
+else:
+    print("Not an Armstrong Number")
