@@ -1,0 +1,8 @@
+d=int(input())
+a=d<=10
+b=d>=10
+c=10+(d-10)*3
+if a:
+    print(d)
+else:
+    print(c)
