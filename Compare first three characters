@@ -1,0 +1,4 @@
+w1=str(input())
+w2=str(input())
+result=w1[:3] == w2[:3]
+print(result)
