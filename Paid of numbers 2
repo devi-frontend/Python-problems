@@ -1,0 +1,8 @@
+a=int(input())
+b=int(input())
+c=(a%3)==0 and (b%3)==0
+d=(a%12)==0 or (b%12)==0
+if c and d:
+    print("Pair")
+else:
+    print("Not a Pair")
