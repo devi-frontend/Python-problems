@@ -1,0 +1,9 @@
+n=int(input())
+a=n%2 != 0
+b=n%3 != 0
+c=n%5 != 0
+d=n%7 != 0
+if a and b and c and d:
+    print("True")
+else:
+    print("False")
