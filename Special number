@@ -1,0 +1,8 @@
+n=input()
+a=int(n[0]) == 7 or int(n[1]) == 7
+b=int(n[0]) + int(n[1]) == 7
+c=(int(n)%7) == 0
+if a or b or c:
+    print("Special Number")
+else:
+    print("Normal Number")
