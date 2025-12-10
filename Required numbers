@@ -1,0 +1,4 @@
+n=input()
+a=int(n)>50 and int(n)<100
+b=int(n[0]) == 7
+print(a or b)
