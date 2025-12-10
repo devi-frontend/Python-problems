@@ -1,0 +1,5 @@
+w1=str(input())
+w2=str(input())
+L=len(w1)-len(w2)
+result=w1[L:]==w2[0:]
+print(result)
