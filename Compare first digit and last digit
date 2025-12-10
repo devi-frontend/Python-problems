@@ -1,0 +1,4 @@
+A=input()
+B=input()
+result=int(A[0])<int(B[2])
+print(result)
