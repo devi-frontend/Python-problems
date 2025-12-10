@@ -1,0 +1,7 @@
+n=int(input())
+a=(n%11) == 0
+b=(n%11) == 1
+if a or b:
+    print("Special Eleven")
+else:
+    print("Normal Number")
