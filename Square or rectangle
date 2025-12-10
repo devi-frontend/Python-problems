@@ -1,0 +1,6 @@
+L=int(input())
+b=int(input())
+if L == b:
+    print("Square")
+else:
+    print("Rectangle")
