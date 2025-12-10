@@ -1,0 +1,8 @@
+a=str(input())
+b=str(input())
+c=a[:3]
+d=b[:3]
+if c=="DIS" or d== "DIS":
+    print("Discount")
+else:
+    print("No Discount")
