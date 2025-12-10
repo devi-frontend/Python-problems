@@ -1,0 +1,5 @@
+n=input()
+a=int(n[0]) == 1 or int(n[1]) == 1 or int(n[2]) == 1 
+b= int(n[0])+int(n[1])+int(n[2])< 12
+c=int(n[2]) == 5 
+print(a and b and c)
