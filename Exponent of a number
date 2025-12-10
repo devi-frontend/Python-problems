@@ -1,0 +1,5 @@
+n=int(input())
+e=int(input())
+a=n**e 
+print(a)
+    
