@@ -1,0 +1,4 @@
+n=input()
+a=int(n[0])>4 and int(n[1])>4 and int(n[2])>4
+b=int(n[0]) == 6
+print(a or b)
