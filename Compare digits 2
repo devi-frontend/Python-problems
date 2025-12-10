@@ -1,0 +1,5 @@
+a=input()
+b=int(a)>25
+c=int(a[0])>int(a[1])
+d=b and c 
+print(d)
