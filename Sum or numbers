@@ -1,0 +1,9 @@
+a=int(input())
+b=int(input())
+c=a<20 or b<20
+d=a+b>30 and a+b<50
+if (c or d):
+    print(a+b)
+else:
+    print(a)
+    print(b)
