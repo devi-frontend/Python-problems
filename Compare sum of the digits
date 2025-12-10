@@ -1,0 +1,5 @@
+n=input()
+add=int(n[0])+int(n[1])
+n1=int(7)
+result=add>n1
+print(result)
