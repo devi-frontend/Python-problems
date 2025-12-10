@@ -1,0 +1,5 @@
+a=int(input())
+b=int(input())
+c=(a<20) or (b<20)
+d=(a>30) or (b>30)
+print(c and d)
