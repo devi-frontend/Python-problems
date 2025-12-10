@@ -1,0 +1,5 @@
+w=str(input())
+N=int(input())
+L=len(w)-N
+result=w[:N] != w[L:]
+print(result)
