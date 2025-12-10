@@ -1,0 +1,6 @@
+r=str(input())
+n=int(r[1:])
+if n<30:
+    print("Ground Floor")
+else:
+    print("Not Ground Floor")
