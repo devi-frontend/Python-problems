@@ -1,0 +1,10 @@
+n=input()
+L=len(n)
+sum=0
+for i in range(L):
+    a=int(n[i])**L 
+    sum=sum+a 
+if sum==int(n):
+    print("Armstrong Number")
+else:
+    print("Not an Armstrong Number")
