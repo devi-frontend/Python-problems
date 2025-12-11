@@ -1,0 +1,4 @@
+n=input()
+L=len(n)
+for i in range(L):
+    print(n[i],end=" ")
