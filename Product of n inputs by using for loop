@@ -1,0 +1,7 @@
+n=int(input())
+product=1 
+for i in range(n):
+    num=int(input())
+    num=1*num 
+    product=num*product
+print(product)
