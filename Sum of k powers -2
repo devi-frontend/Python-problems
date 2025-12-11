@@ -1,0 +1,7 @@
+n=input()
+L=len(n)
+sum=0
+for i in range(L):
+    a=int(n[i])**L 
+    sum=sum+a 
+print(sum)
