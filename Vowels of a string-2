@@ -1,0 +1,10 @@
+s=input()
+L=len(s)
+count=0
+for i in range(L):
+    if s[i]=="a" or s[i]=="e" or s[i]=="i" or s[i]=="o" or s[i]=="u":
+        count=count+1 
+if count>2:
+    print("String has more than two vowels")
+else:
+    print("String doesn't have more than two vowels")
