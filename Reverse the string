@@ -1,0 +1,4 @@
+s=input()
+L=len(s)
+for i in range(L-1,-1,-1):
+    print(s[i],end="")
