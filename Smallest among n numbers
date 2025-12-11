@@ -1,0 +1,7 @@
+n=int(input())
+small=int(input())
+for i in range(n-1):
+    num=int(input())
+    if num<small:
+        small=num
+print(small)
