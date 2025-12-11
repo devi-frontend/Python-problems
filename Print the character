@@ -1,0 +1,6 @@
+s=input()
+count=0
+length=len(s)
+while count<length:
+    print(s[count])
+    count=count+1
