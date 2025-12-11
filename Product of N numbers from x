@@ -1,0 +1,11 @@
+x=int(input())
+n=int(input())
+count=0
+product=1 
+
+while count<n:
+    x=x+1 
+    num=x*1
+    product=product*num 
+    count=count+1 
+print(product)
