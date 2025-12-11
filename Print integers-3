@@ -1,0 +1,9 @@
+n=int(input())
+count=1  
+print(n)
+while count < n: 
+    
+    n=n-1
+    print(n)
+
+    
