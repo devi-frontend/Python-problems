@@ -1,0 +1,9 @@
+n=int(input())
+count=0
+sum=0
+while count<n:
+    num=int(input())
+    sum=sum+num
+    count=count+1 
+avg=sum/n 
+print(avg)
