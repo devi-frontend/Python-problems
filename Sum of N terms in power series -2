@@ -1,0 +1,9 @@
+x=int(input())
+n=int(input())
+sum=0 
+a=2
+for i in range(n):
+    b=x**a
+    sum=sum+b
+    a=a+2 
+print(sum)
