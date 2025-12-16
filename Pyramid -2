@@ -1,0 +1,7 @@
+n=int(input())
+j=1 
+for i in range(1,n+1):
+    space=(n-1)*2 
+    print(" "*space+(str(i)+" ")*j)
+    n=n-1 
+    j=j+2
